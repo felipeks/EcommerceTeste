@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.ecommerce.EcommerceTeste.model.CarrinhoModel;
 
-public interface CarrinhoRepository extends JpaRepository<CarrinhoModel, Long> {
+public interface CarrinhoRepository extends JpaRepository<CarrinhoModel, Integer> {
 
 }
